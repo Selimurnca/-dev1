@@ -29,20 +29,5 @@ select * from employees as ep
 order by ep.salary desc
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- E . Çalışan isimlerinin bir araya getirildiği sorgu . Tek tırnak hassasiyeti de mevcut bu kodda 
 select  ep.firstname ||' '|| ep.lastname as fullname from employees as  ep
